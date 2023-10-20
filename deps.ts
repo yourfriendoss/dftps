@@ -15,7 +15,7 @@ export { getPort, makeRange, randomPort } from "https://deno.land/x/getport@2.1.
 export { Command } from "https://deno.land/x/cliffy@v0.18.2/command/mod.ts";
 export { Table } from "https://deno.land/x/cliffy@v0.18.2/table/mod.ts";
 export { colors } from "https://deno.land/x/cliffy@v0.18.2/ansi/colors.ts";
-export { hash, verify } from "https://deno.land/x/scrypt@v2.0.0/mod.ts";
+export { hash, verify } from "https://deno.land/x/scrypt@v4.2.1/mod.ts";
 
 export {
   Database,
