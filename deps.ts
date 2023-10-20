@@ -12,9 +12,9 @@ export { format } from "https://deno.land/std@0.97.0/datetime/mod.ts";
 
 export { getPort, makeRange, randomPort } from "https://deno.land/x/getport@2.1.0/mod.ts";
 
-export { Command } from "https://deno.land/x/cliffy@v0.18.2/command/mod.ts";
-export { Table } from "https://deno.land/x/cliffy@v0.18.2/table/mod.ts";
-export { colors } from "https://deno.land/x/cliffy@v0.18.2/ansi/colors.ts";
+export { Command } from "https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts";
+export { Table } from "https://deno.land/x/cliffy@v1.0.0-rc.3/table/mod.ts";
+export { colors } from "https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/colors.ts";
 export { hash, verify } from "https://deno.land/x/scrypt@v4.2.1/mod.ts";
 
 export {
@@ -25,5 +25,5 @@ export {
   SQLite3Connector,
   Model,
   DataTypes
-} from 'https://deno.land/x/denodb@v1.0.38/mod.ts';
-export type { MongoDBOptions, MySQLOptions, PostgresOptions, SQLite3Options } from 'https://deno.land/x/denodb@v1.0.38/mod.ts';
+} from 'https://deno.land/x/denodb@v1.4.0/mod.ts';
+export type { MongoDBOptions, MySQLOptions, PostgresOptions, SQLite3Options } from 'https://deno.land/x/denodb@v1.4.0/mod.ts';
